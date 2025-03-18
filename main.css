@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  html {
+    height: 200vh;
+    background-color: #fff;
+  }
+  .container {
+    max-width: 1280px;
+    margin: auto;
+  }
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header{
+  width: 100%;
+  padding: 60px 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .5s;
+}
+
+header.rolagem{
+  background-color: #fff;
+  padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+  color: rgb(37, 7, 61);
+}
+
+
+h1{
+  font-size: 20px;
+  color: #fff;
+  margin-top: 60px; 
+  margin-bottom: 70vh; 
+}
+
+header ul{
+  list-style-type: none;
+}
+
+header ul li{
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header ul li a{
+  color: #fff;
+  text-decoration: none;
+  transition: all 2s ease;
+}
+
+.btn-contato button{
+  width: 120px;
+  height: 40px;
+  border: 0;
+  background-color: rgb(15, 4, 57);
+  color: #fff;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.banner{
+  height: 110vh;
+  background-image: url(img/background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content:center;
+
+}
+
+.banner h1 { 
+  font-size: 4em;
+}
+
+.banner h1, .text-colored, span{ 
+  color:#8580ecbc;
+}
+
+.sobre {
+  background-color: rgb(34, 53, 78);
+  height:90vh;
+}
+
+h2,h3{
+  color: rgb(253, 253, 255);
+}
+
+p{
+  color: #07011c;
+}
+
+.nav-list li a:hover {
+  text-shadow: 0 0 8px rgb(186, 233, 249); 
+  color: #ffffff; 
+  transform: translateY(-5px);
+}
+
+.banner h1 {
+  color: #fff;
+}
