@@ -21,7 +21,7 @@
 
 @media (max-width: 768px) {
     body{
-        padding-top: 80px;
+        padding-top: 100px;
     }
 }
   .container {
@@ -95,6 +95,7 @@ header ul li a{
   display: flex;
   align-items: center;
   justify-content:center;
+    padding-top: 80px;
 
 }
 
